@@ -1,0 +1,6 @@
+{
+  "name": "Cooks studio",
+  "description": "Contemporary wood-fired coastal bistro featuring seasonal dining menus, real-time table reservations, secure online ordering, and live kitchen order tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,121 @@
+{
+  "reservations": [
+    {
+      "code": "RES-4821",
+      "date": "2026-11-24",
+      "time": "19:00",
+      "partySize": 2,
+      "seatingZone": "Chef's Counter",
+      "guestName": "Clara Vance",
+      "guestEmail": "c.vance@example.com",
+      "guestPhone": "(415) 555-0148",
+      "occasion": "Anniversary",
+      "dietaryNotes": "No shellfish",
+      "status": "confirmed",
+      "createdAt": "2026-11-24T04:17:36.136Z"
+    },
+    {
+      "code": "RES-4822",
+      "date": "2026-11-24",
+      "time": "19:30",
+      "partySize": 4,
+      "seatingZone": "Main Dining Room",
+      "guestName": "Marcus Sterling",
+      "guestEmail": "m.sterling@example.com",
+      "guestPhone": "(415) 555-0192",
+      "status": "confirmed",
+      "createdAt": "2026-11-24T03:17:36.136Z"
+    }
+  ],
+  "orders": [
+    {
+      "orderNumber": "ORD-4092",
+      "trackingToken": "demo-track-4092",
+      "fulfillmentType": "pickup",
+      "status": "wood_fired",
+      "estimatedMinutesRemaining": 9,
+      "estimatedReadyAt": "2026-11-24T05:26:36.136Z",
+      "createdAt": "2026-11-24T05:16:11.135Z",
+      "items": [
+        {
+          "menuItemId": "hearth-sea-bass",
+          "name": "Wood-Roasted Black Sea Bass",
+          "quantity": 1,
+          "unitPrice": 44,
+          "lineTotal": 44,
+          "modifiersLabel": "Saffron Beurre Blanc"
+        },
+        {
+          "menuItemId": "truffle-agnolotti",
+          "name": "Chanterelle & Black Truffle Agnolotti",
+          "quantity": 1,
+          "unitPrice": 36,
+          "lineTotal": 36,
+          "modifiersLabel": "Standard Shaved Black Truffle"
+        }
+      ],
+      "pricing": {
+        "subtotal": 80,
+        "tax": 6.9,
+        "deliveryFee": 0,
+        "tip": 14.4,
+        "total": 101.3
+      },
+      "payment": {
+        "method": "card",
+        "brand": "Visa",
+        "last4": "4242",
+        "transactionId": "ch_hearth_4092a8",
+        "receiptSignature": "7816717360D2A7F7"
+      },
+      "customer": {
+        "name": "Elena Rostova",
+        "email": "e***@example.com",
+        "phone": "(415) ***-0183",
+        "addressSummary": "Counter Pickup · 418 Jackson St"
+      },
+      "timeline": [
+        {
+          "stage": "confirmed",
+          "label": "Payment Confirmed",
+          "description": "Tokenized payment authorized and ticket transmitted to the hearth pass.",
+          "completedAt": "2026-11-24T05:16:11.135Z"
+        },
+        {
+          "stage": "preparing",
+          "label": "Kitchen Preparing",
+          "description": "Cold larder and pasta station prepping seasonal garnishes to order.",
+          "completedAt": "2026-11-24T05:16:36.135Z"
+        },
+        {
+          "stage": "wood_fired",
+          "label": "Wood-Fired & Plating",
+          "description": "Finishing proteins over white oak embers and plating on warmed stoneware.",
+          "completedAt": "2026-11-24T05:17:26.135Z"
+        },
+        {
+          "stage": "ready_or_out",
+          "label": "Ready for Pickup",
+          "description": "Packed in insulated linen carriers at the host counter on Jackson St.",
+          "completedAt": null
+        },
+        {
+          "stage": "completed",
+          "label": "Collected",
+          "description": "Order collected. Enjoy your evening with Arden & Hearth.",
+          "completedAt": null
+        }
+      ]
+    }
+  ],
+  "inquiries": [
+    {
+      "id": "INQ-4606",
+      "name": "Test Guest",
+      "email": "guest@example.com",
+      "topic": "General Inquiry",
+      "message": "Checking private dining availability for Friday evening.",
+      "createdAt": "2026-11-24T05:54:09.591Z"
+    }
+  ]
+}
